@@ -2,7 +2,7 @@
 
 2026年11月1日にこのコンテナで実行。**事前学習済みYOLOv8nで、Gazebo内の人物を認識できたため、人物検出時に停止する巡回案を採用する。**
 
-ここで確認したのは静止ロボットのカメラ画像からの人物検出まで。巡回走行、連続検出による停止、移動中のカメラ、実機の安全性は未検証。
+この事前検証の対象は、静止ロボットのカメラ画像からの人物検出。巡回走行と連続検出による停止の検証結果は [本実装の動作確認](../../docs/validation.md) を参照。実機の安全性は未検証。
 
 ## 結果
 
@@ -37,7 +37,7 @@
 - 元のモデルではカメラ関連リンクに明示的なposeがなく、車体が映り込んだ。
 - `assets/turtlebot3_happy_mini/model_camera_fixed.sdf` は `model.sdf` の派生版。`camera_link` と `camera_rgb_optical_frame` のlink poseを `0.08 0 1.03 0 0 0` に設定した。検証用のモデル原点z=0.01を含めカメラ高さは1.04 m。
 - 撮影時だけモデルをstaticにし、モータープラグイン・LiDAR・IMUを無効化、カメラ更新を2 Hzにした。モデルの一部に重みを追加したり、人物を画像に貼り付けたりはしていない。
-- 静止画取得はCPU描画・エミュレーション環境で遅くなる場合があった。人物なし画像を3枚待った試行が時間切れになったため、1枚の実画像で比較した。複数の異なるフレームを用いた停止判定は今後の確認項目。
+- 静止画取得はCPU描画・エミュレーション環境で遅くなる場合があった。人物なし画像を3枚待った試行が時間切れになったため、1枚の実画像で比較した。複数の異なるフレームを用いた停止判定は、本実装で別途確認した。
 - 検証用のGazebo masterは11367番ポート、ROS_DOMAIN_IDは67。既存のGazeboへ接続せず、撮影後に自分のサーバーを終了する。ポート使用中はエラーにする。
 
 ## 再実行
@@ -80,8 +80,6 @@ python3 validation/person_detection/validate.py \
 
 - ロボットモデル：[AI-Robot-Book-Humble/turtlebot3_happy_mini](https://github.com/AI-Robot-Book-Humble/turtlebot3_happy_mini)。教材の `turtlebot3_gazebo/models/turtlebot3_happy_mini` からコピー。元モデルと変更版を保存し、LICENSEとNOTICEは `assets/` に保持した。
 - 人物モデル：Gazebo標準同梱の `walk.dae`。ベースイメージに含まれるGazebo資産を参照する。[actorの公式説明](https://classic.gazebosim.org/tutorials?tut=actor)。
-- 検出モデル：[Ultralytics YOLOv8](https://docs.ultralytics.com/models/yolov8/)、重みは公式GitHub Releases。使用するコード・重みのライセンス表記と利用条件を保持・確認して提出する。
-
-本実装でvendorパッケージへ資産を移すときは、同じモデルを重複して提出せず、本スクリプトのパスと再実行手順も合わせて更新する。
+- 検出モデル：[Ultralytics YOLOv8](https://docs.ultralytics.com/models/yolov8/)、重みは公式GitHub Releases。利用条件は [出典と利用条件](../../THIRD_PARTY.md) を参照。
 
 本実装に合わせ、メッシュは `src/vendor/turtlebot3_gazebo/models/turtlebot3_happy_mini/` に統合した。比較用2種類のSDFはassetsに保持し、validate.pyがメッシュURIをvendorのファイルへ解決するため、同じ再実行コマンドが使用できる。

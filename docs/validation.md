@@ -25,14 +25,10 @@
 
 ## 実装中に判明した問題
 
-- 物理刻みだけの設定では車体が飛び出す異常が発生。教材のODEソルバー設定（1ms、150反復、拘束設定）を用いて改善。失敗試行の録画は提出素材に使用しない。
+- 物理刻みだけの設定では車体が飛び出す異常が発生。教材のODEソルバー設定（1ms、150反復、拘束設定）を用いて改善。
 - この環境では大きな画像のBEST_EFFORT購読が途切れた。配信に合わせてRELIABLE・KEEP_LAST 1に変更し、連続推論・2回の走行を確認。LiDARは小さなメッセージでBEST_EFFORT購読。
 - 初期推論やCPU負荷で古くなった結果は配信せず、controllerは待機する。重み、640入力、0.5閾値は事前検証と同じ。
 
 ## トピック
 
 実起動後に確認：画像 `/camera/image_raw` (sensor_msgs/Image)、LiDAR `/scan` (sensor_msgs/LaserScan) はRELIABLE・VOLATILE・depth 5配信。`/cmd_vel` (geometry_msgs/Twist) はcontrollerからRELIABLE配信、Gazebo差動駆動が購読。検出 `/person/result`、状態 `/patrol/state` はstd_msgs/String。注釈画像 `/person/annotated`。
-
-## 残る提出作業
-
-説明PDF（docs/report.pdf）と説明付き約110秒MP4（recordings/submission.mp4）を作成した。PDFの提出名と動画の最終タイトルには利用者のOmniCampusアカウント名またはIDが必要。公開GitHub、YouTubeアップロード、公開設定・個人情報の最終確認、OmniCampus送信は未実施。

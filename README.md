@@ -56,18 +56,18 @@ ros2 pkg prefix turtlebot3_description
 python3 scripts/observe.py --output recordings/run1 --seconds 120
 ```
 
-`events.jsonl` に状態、検出、速度指令、オドメトリ、`camera.mp4` に注釈カメラと状態を保存する。worldとは別の固定観察カメラがGazebo全体像を撮影し、搭載カメラと並べて記録する。観察カメラは制御に使用しない。目的・AI方式・工夫・限界を加えて1〜3分MP4にする。録画・ビルド・重み・ログ・課題PDFはGit対象外。検証証拠は `validation/` に保存する。
+`events.jsonl` に状態、検出、速度指令、オドメトリ、`camera.mp4` に注釈カメラと状態を保存する。worldとは別の固定観察カメラがGazebo全体像を撮影し、搭載カメラと並べて記録する。観察カメラは制御に使用しない。録画・ビルド・重み・ログはGit対象外。検証証拠は `validation/` に保存する。
 
-## 提出
+## 実行結果と制限
 
-実施結果は `docs/validation.md`、レポート原稿は `docs/report.md` を参照。公開・アップロード・OmniCampus送信は行わない。提出時にpublic GitHub、1〜3分動画、説明PDFを用意する。PDF名は `説明資料_PAI最終課題_omnicampusアカウント名.pdf`、動画タイトルは `PAI最終課題_omnicampusアカウント名`（個人名ならIDの利用を確認）。成果物の個人情報や通知の映り込みを確認する。
+実施結果は `docs/validation.md`、レポートは `docs/report.md` を参照。
 
-限定した環境・1種類の人物モデルでの課題。部屋全体の探索、一般的な認識性能、無衝突、実機の安全性は保証しない。障害物回避はルール制御。出典とライセンスは `THIRD_PARTY.md`。
+限定した環境・1種類の人物モデルで検証した。部屋全体の探索、一般的な認識性能、無衝突、実機の安全性は保証しない。障害物回避はルール制御。出典とライセンスは `THIRD_PARTY.md`。
 
-## この環境で作成した提出素材
+## 動画・レポート
 
-- `recordings/submission.mp4`：説明付き約110秒、1280×720、再生速度変更なし。Git対象外なので動画サービスへ別途提出する。
-- `docs/report.pdf`：日本語説明資料（1ページ）。提出時に指定のアカウント名またはIDを付けたファイル名へ変更する。
+- `recordings/submission.mp4`：説明付き約110秒、1280×720、再生速度変更なし。Git対象外。
+- `docs/report.pdf`：日本語説明資料（1ページ）。
 - `validation/patrol/run1/` と `run2/`：2回の実走の状態・検出・速度記録。
 
-素材の再生成は `python3 scripts/export_video.py`、PDFは `python3 scripts/export_report.py`。動画生成はffmpegとPillow、PDFはReportLabとTakaoフォントを使う（この環境には導入済み、ロボットの実行には不要）。動画はOmniCampusアカウント名が未指定なので汎用タイトルで作成した。YouTube投稿時に指定形式のタイトルを設定する。
+動画の再生成は `python3 scripts/export_video.py`、PDFは `python3 scripts/export_report.py`。動画生成はffmpegとPillow、PDFはReportLabとTakaoフォントを使う（この環境には導入済み、ロボットの実行には不要）。
