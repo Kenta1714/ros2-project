@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "startup stops",
+    "no model / no inference stops",
+    "clear path drives",
+    "lidar timeout stops",
+    "inference / camera timeout stops",
+    "invalid scan stops",
+    "positive infinity is clear",
+    "single person frame does not latch",
+    "duplicate frame does not latch",
+    "two distinct consecutive frames stop",
+    "stop remains latched after no person"
+  ]
+}

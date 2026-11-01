@@ -17,3 +17,19 @@ Desktop.ini
 
 # Logs
 *.log
+
+AGENTS.md
+validation/person_detection/cache/
+
+**/__pycache__/
+
+# Rebuildable output and local submission materials
+/build/
+/install/
+/log/
+/models/*.pt*
+.venv/
+*.pyc
+/homework.pdf
+/recordings/
+/.ros/

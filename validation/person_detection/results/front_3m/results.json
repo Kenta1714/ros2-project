@@ -1,0 +1,93 @@
+{
+  "model": "YOLOv8n COCO pretrained",
+  "weights_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "source": "Gazebo Classic RGB camera; original sensor images, no person compositing",
+  "actor": "Gazebo bundled media/models/walk.dae",
+  "person_present": true,
+  "distance_m": 3.0,
+  "actor_yaw_rad": 0.0,
+  "camera_height_m": 1.03,
+  "camera_resolution": [
+    640,
+    480
+  ],
+  "horizontal_fov_rad": 1.085595,
+  "imgsz": 640,
+  "person_confidence_threshold": 0.5,
+  "frames": [
+    {
+      "file": "frame_00.png",
+      "sim_time": 0.5,
+      "encoding": "rgb8",
+      "inference_seconds": 0.2191,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "person",
+          "confidence": 0.8847,
+          "xyxy": [
+            270.7,
+            124.7,
+            365.3,
+            435.4
+          ]
+        }
+      ],
+      "person_detected": true,
+      "annotated_file": "frame_00_detected.jpg",
+      "source_image_sha256": "7cb80d1b4e9dfc9ad5814b114931b49ae7210d21f9f1fc2524583545c4ebdd2b"
+    },
+    {
+      "file": "frame_01.png",
+      "sim_time": 1.0,
+      "encoding": "rgb8",
+      "inference_seconds": 0.2322,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "person",
+          "confidence": 0.9202,
+          "xyxy": [
+            265.7,
+            124.1,
+            361.8,
+            421.8
+          ]
+        }
+      ],
+      "person_detected": true,
+      "annotated_file": "frame_01_detected.jpg",
+      "source_image_sha256": "382a1a6bdf975d5ba02c2bbd4b7319078b6bd349815e28affd6622848cc8def8"
+    },
+    {
+      "file": "frame_02.png",
+      "sim_time": 8.5,
+      "encoding": "rgb8",
+      "inference_seconds": 0.1224,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "person",
+          "confidence": 0.9141,
+          "xyxy": [
+            263.3,
+            129.7,
+            362.9,
+            434.8
+          ]
+        }
+      ],
+      "person_detected": true,
+      "annotated_file": "frame_02_detected.jpg",
+      "source_image_sha256": "1016ba6de8aeb74e2c90484ea9cdf8a0276c5e7839fa1ad2856d391285c97ac3"
+    }
+  ],
+  "passed": true,
+  "limits": "Controlled scene only; not robot movement, collision avoidance, or stop behavior validation.",
+  "software": {
+    "ultralytics": "8.3.74",
+    "torch": "2.6.0",
+    "numpy": "1.24.4"
+  },
+  "frames_captured": 3
+}

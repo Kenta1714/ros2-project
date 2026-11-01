@@ -1,0 +1,95 @@
+{
+  "states": [
+    {
+      "t": 0.112,
+      "kind": "state",
+      "data": "WAIT LIDAR"
+    },
+    {
+      "t": 0.812,
+      "kind": "state",
+      "data": "WAIT CAMERA / INFERENCE"
+    },
+    {
+      "t": 6.211,
+      "kind": "state",
+      "data": "PATROL"
+    },
+    {
+      "t": 24.813,
+      "kind": "state",
+      "data": "AVOID"
+    },
+    {
+      "t": 28.013,
+      "kind": "state",
+      "data": "PATROL"
+    },
+    {
+      "t": 28.413,
+      "kind": "state",
+      "data": "AVOID"
+    },
+    {
+      "t": 30.514,
+      "kind": "state",
+      "data": "PATROL"
+    },
+    {
+      "t": 33.413,
+      "kind": "state",
+      "data": "AVOID"
+    },
+    {
+      "t": 34.513,
+      "kind": "state",
+      "data": "PATROL"
+    },
+    {
+      "t": 36.313,
+      "kind": "state",
+      "data": "PERSON STOP (latched)"
+    }
+  ],
+  "trigger_frames": [
+    {
+      "t": 35.492,
+      "kind": "detection",
+      "data": {
+        "seq": 83,
+        "stamp": [
+          17,
+          963000000
+        ],
+        "person": true,
+        "confidence": 0.8733,
+        "seconds": 0.297,
+        "age": 0.35001800099962566
+      }
+    },
+    {
+      "t": 36.243,
+      "kind": "detection",
+      "data": {
+        "seq": 85,
+        "stamp": [
+          18,
+          363000000
+        ],
+        "person": true,
+        "confidence": 0.8057,
+        "seconds": 0.241,
+        "age": 0.33426574999975855
+      }
+    }
+  ],
+  "stop_seconds": 36.313,
+  "hold_observed_seconds": 48.266,
+  "max_settled_speed_mps": 0.0009025535566441832,
+  "max_settled_angular_rps": 0.0008716552026161327,
+  "inference_seconds": [
+    0.15,
+    0.9
+  ],
+  "note": "Measured ROS cmd_vel and Gazebo plugin odometry. No contact sensor validation."
+}

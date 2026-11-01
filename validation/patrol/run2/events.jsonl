@@ -1,0 +1,293 @@
+{"t": 0.1, "kind": "state", "data": "WAIT LIDAR"}
+{"t": 0.109, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 1.068, "kind": "odom", "data": {"x": 9.212995702733326e-07, "y": 4.563429301016112e-08, "speed": 4.7061160089706684e-05, "angular": 2.2194103186203684e-06}}
+{"t": 1.193, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 1.694, "kind": "state", "data": "WAIT CAMERA / INFERENCE"}
+{"t": 2.077, "kind": "odom", "data": {"x": 0.00010211332395551643, "y": -3.7070214635332477e-08, "speed": -2.3929593432677287e-05, "angular": 4.0991399741243754e-07}}
+{"t": 2.293, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 3.131, "kind": "odom", "data": {"x": 4.387313360178804e-05, "y": -1.5881422859730142e-07, "speed": 0.0001830613526133975, "angular": 8.836688498062669e-07}}
+{"t": 3.392, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 4.177, "kind": "odom", "data": {"x": 3.993504444594404e-05, "y": -1.8549816441237084e-07, "speed": -4.8748997386417036e-05, "angular": 3.989016631267608e-07}}
+{"t": 4.492, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 5.181, "kind": "odom", "data": {"x": 4.8760684280098724e-05, "y": -1.808284481134426e-07, "speed": 1.0163842787970875e-05, "angular": 3.059783500503877e-07}}
+{"t": 5.493, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 6.19, "kind": "odom", "data": {"x": 5.2561359448622004e-05, "y": -1.7280994602030485e-07, "speed": -0.00013469715302817238, "angular": 2.652291707533442e-07}}
+{"t": 6.493, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 7.217, "kind": "odom", "data": {"x": 5.2600796434828086e-05, "y": -1.7153342831575368e-07, "speed": -7.28545948178462e-05, "angular": 9.952587982061838e-07}}
+{"t": 7.592, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 8.127, "kind": "detection", "data": {"seq": 10, "stamp": [3, 346000000], "person": false, "confidence": 0.0, "seconds": 0.364, "age": 0.6967997920000926}}
+{"t": 8.196, "kind": "state", "data": "PATROL"}
+{"t": 8.32, "kind": "odom", "data": {"x": 5.223427546099867e-05, "y": -1.7160524706287264e-07, "speed": -8.748387519066319e-05, "angular": 2.2330690114324438e-08}}
+{"t": 8.596, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 8.9, "kind": "detection", "data": {"seq": 13, "stamp": [3, 945000000], "person": false, "confidence": 0.0, "seconds": 0.246, "age": 0.31385387499904027}}
+{"t": 9.372, "kind": "odom", "data": {"x": 0.04431443134188508, "y": -3.676992071300568e-07, "speed": 0.07989018064108801, "angular": 8.596714575588671e-07}}
+{"t": 9.6, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 9.772, "kind": "detection", "data": {"seq": 15, "stamp": [4, 345000000], "person": false, "confidence": 0.0, "seconds": 0.371, "age": 0.5251519999983429}}
+{"t": 10.425, "kind": "odom", "data": {"x": 0.07151645403014434, "y": -4.802504651453707e-07, "speed": 0.07987023644169358, "angular": 6.454039466732819e-07}}
+{"t": 10.609, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 11.114, "kind": "detection", "data": {"seq": 16, "stamp": [4, 545000000], "person": false, "confidence": 0.0, "seconds": 0.827, "age": 1.4801187930006563}}
+{"t": 11.453, "kind": "odom", "data": {"x": 0.12047788991316555, "y": -6.856004625189487e-07, "speed": 0.07999538089307726, "angular": 8.228243492010718e-07}}
+{"t": 11.79, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 12.11, "kind": "detection", "data": {"seq": 20, "stamp": [5, 346000000], "person": false, "confidence": 0.0, "seconds": 0.479, "age": 0.6492422920000536}}
+{"t": 12.501, "kind": "odom", "data": {"x": 0.15855748406075457, "y": -8.60205700168469e-07, "speed": 0.07991047611980576, "angular": 4.984555313421856e-07}}
+{"t": 12.792, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 12.89, "kind": "detection", "data": {"seq": 22, "stamp": [5, 745000000], "person": false, "confidence": 0.0, "seconds": 0.275, "age": 0.46605337600158236}}
+{"t": 13.56, "kind": "odom", "data": {"x": 0.20207742248330288, "y": -1.0356307847522372e-06, "speed": 0.07989425169043007, "angular": -5.345143286423883e-07}}
+{"t": 13.741, "kind": "detection", "data": {"seq": 24, "stamp": [6, 145000000], "person": false, "confidence": 0.0, "seconds": 0.345, "age": 0.6484420840006351}}
+{"t": 13.792, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 14.422, "kind": "detection", "data": {"seq": 26, "stamp": [6, 546000000], "person": false, "confidence": 0.0, "seconds": 0.174, "age": 0.4566467509994254}}
+{"t": 14.612, "kind": "odom", "data": {"x": 0.24559708195558308, "y": -1.2367681630714872e-06, "speed": 0.07991145339300032, "angular": 6.097299783761285e-07}}
+{"t": 14.792, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 15.279, "kind": "detection", "data": {"seq": 28, "stamp": [6, 945000000], "person": false, "confidence": 0.0, "seconds": 0.35, "age": 0.628424124999583}}
+{"t": 15.655, "kind": "odom", "data": {"x": 0.2891168198266595, "y": -1.4205420018903561e-06, "speed": 0.0799193678534328, "angular": -5.756082235305025e-07}}
+{"t": 15.793, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 16.006, "kind": "detection", "data": {"seq": 30, "stamp": [7, 346000000], "person": false, "confidence": 0.0, "seconds": 0.22, "age": 0.5934207919999608}}
+{"t": 16.792, "kind": "odom", "data": {"x": 0.3217566332281749, "y": -1.5584115112562435e-06, "speed": 0.0799086476504595, "angular": 2.540198395019247e-07}}
+{"t": 16.837, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 17.155, "kind": "detection", "data": {"seq": 32, "stamp": [7, 746000000], "person": false, "confidence": 0.0, "seconds": 0.642, "age": 0.8528407499998139}}
+{"t": 17.827, "kind": "detection", "data": {"seq": 35, "stamp": [8, 345000000], "person": false, "confidence": 0.0, "seconds": 0.163, "age": 0.21370854199994938}}
+{"t": 17.853, "kind": "odom", "data": {"x": 0.3734363949044542, "y": -1.7959605058469563e-06, "speed": 0.07989406555646912, "angular": -8.329555325953745e-07}}
+{"t": 17.892, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 18.529, "kind": "detection", "data": {"seq": 36, "stamp": [8, 545000000], "person": false, "confidence": 0.0, "seconds": 0.198, "age": 0.6367327919997479}}
+{"t": 18.885, "kind": "odom", "data": {"x": 0.414236061531506, "y": -1.9619304791861735e-06, "speed": 0.07991082350465914, "angular": -6.124942296773807e-08}}
+{"t": 18.892, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 19.238, "kind": "detection", "data": {"seq": 38, "stamp": [8, 945000000], "person": false, "confidence": 0.0, "seconds": 0.205, "age": 0.42868995900062146}}
+{"t": 19.892, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 19.933, "kind": "detection", "data": {"seq": 40, "stamp": [9, 345000000], "person": false, "confidence": 0.0, "seconds": 0.191, "age": 0.44860987500032934}}
+{"t": 19.946, "kind": "odom", "data": {"x": 0.4577558118904634, "y": -2.1666944616899656e-06, "speed": 0.07993332991091177, "angular": 7.619356014618583e-07}}
+{"t": 20.618, "kind": "detection", "data": {"seq": 42, "stamp": [9, 745000000], "person": false, "confidence": 0.0, "seconds": 0.183, "age": 0.24415920799947344}}
+{"t": 20.892, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 21.009, "kind": "odom", "data": {"x": 0.5012755512632261, "y": -2.3495803947488052e-06, "speed": 0.07991110157958065, "angular": -6.99861919086811e-07}}
+{"t": 21.338, "kind": "detection", "data": {"seq": 43, "stamp": [9, 945000000], "person": false, "confidence": 0.0, "seconds": 0.215, "age": 0.6804756670007919}}
+{"t": 21.895, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 22.012, "kind": "odom", "data": {"x": 0.5393554557545318, "y": -2.51940654871541e-06, "speed": 0.07991525644209804, "angular": 3.210331379170775e-07}}
+{"t": 22.122, "kind": "detection", "data": {"seq": 45, "stamp": [10, 346000000], "person": false, "confidence": 0.0, "seconds": 0.278, "age": 0.5706042499987234}}
+{"t": 22.872, "kind": "detection", "data": {"seq": 47, "stamp": [10, 745000000], "person": false, "confidence": 0.0, "seconds": 0.243, "age": 0.5860217080007715}}
+{"t": 22.992, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 23.074, "kind": "odom", "data": {"x": 0.5855950339920917, "y": -2.7303334712316854e-06, "speed": 0.07991046387141258, "angular": -7.200731861025675e-07}}
+{"t": 23.562, "kind": "detection", "data": {"seq": 49, "stamp": [11, 146000000], "person": false, "confidence": 0.0, "seconds": 0.187, "age": 0.5472724170012953}}
+{"t": 23.992, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 24.088, "kind": "odom", "data": {"x": 0.6263948966957426, "y": -2.899700025900473e-06, "speed": 0.07991493791007295, "angular": 6.516846726269275e-08}}
+{"t": 24.284, "kind": "detection", "data": {"seq": 51, "stamp": [11, 545000000], "person": false, "confidence": 0.0, "seconds": 0.219, "age": 0.3777620830005617}}
+{"t": 24.992, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 24.993, "kind": "detection", "data": {"seq": 53, "stamp": [11, 945000000], "person": false, "confidence": 0.0, "seconds": 0.206, "age": 0.3876456660000258}}
+{"t": 25.117, "kind": "odom", "data": {"x": 0.6699145270767074, "y": -3.107049792195645e-06, "speed": 0.07991117028430354, "angular": 1.8320618243249992e-07}}
+{"t": 25.979, "kind": "detection", "data": {"seq": 54, "stamp": [12, 146000000], "person": false, "confidence": 0.0, "seconds": 0.475, "age": 0.8207735009982571}}
+{"t": 25.992, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 26.151, "kind": "odom", "data": {"x": 0.702554350053084, "y": -3.2456558869883167e-06, "speed": 0.07991072578014571, "angular": -8.00032910002809e-07}}
+{"t": 26.888, "kind": "detection", "data": {"seq": 57, "stamp": [12, 762000000], "person": false, "confidence": 0.0, "seconds": 0.393, "age": 0.5244604580002488}}
+{"t": 26.992, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 27.194, "kind": "state", "data": "AVOID"}
+{"t": 27.204, "kind": "odom", "data": {"x": 0.7433541021869892, "y": -3.4252276739740457e-06, "speed": 0.0799333749880221, "angular": 8.791706768509392e-07}}
+{"t": 27.563, "kind": "detection", "data": {"seq": 59, "stamp": [13, 145000000], "person": false, "confidence": 0.0, "seconds": 0.17, "age": 0.2637575420012581}}
+{"t": 27.992, "kind": "cmd", "data": {"linear": 0.0, "angular": -0.3}}
+{"t": 28.237, "kind": "detection", "data": {"seq": 61, "stamp": [13, 545000000], "person": false, "confidence": 0.0, "seconds": 0.17, "age": 0.2566328329994576}}
+{"t": 28.255, "kind": "odom", "data": {"x": 0.7483340898142247, "y": 3.608159224219233e-05, "speed": -0.0005997547734611344, "angular": -0.29869091825471084}}
+{"t": 28.992, "kind": "cmd", "data": {"linear": 0.0, "angular": -0.3}}
+{"t": 29.113, "kind": "detection", "data": {"seq": 62, "stamp": [13, 745000000], "person": false, "confidence": 0.0, "seconds": 0.373, "age": 0.6393634589985595}}
+{"t": 29.275, "kind": "odom", "data": {"x": 0.748027002905519, "y": 0.00011625539340913435, "speed": -0.0005698179029827811, "angular": -0.29896043719883797}}
+{"t": 29.84, "kind": "detection", "data": {"seq": 65, "stamp": [14, 345000000], "person": false, "confidence": 0.0, "seconds": 0.22, "age": 0.25194312499843363}}
+{"t": 29.993, "kind": "cmd", "data": {"linear": 0.0, "angular": -0.3}}
+{"t": 30.32, "kind": "odom", "data": {"x": 0.7477400432333767, "y": 0.00024600393494595286, "speed": -0.000582346072944942, "angular": -0.2989580926978293}}
+{"t": 30.502, "kind": "state", "data": "PATROL"}
+{"t": 30.993, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 31.094, "kind": "detection", "data": {"seq": 66, "stamp": [14, 546000000], "person": false, "confidence": 0.0, "seconds": 0.747, "age": 1.0998396659997525}}
+{"t": 31.381, "kind": "odom", "data": {"x": 0.7677287346076886, "y": -0.010581444949197718, "speed": 0.07550272071618139, "angular": -0.01788717559111796}}
+{"t": 31.696, "kind": "state", "data": "AVOID"}
+{"t": 31.958, "kind": "detection", "data": {"seq": 69, "stamp": [15, 145000000], "person": false, "confidence": 0.0, "seconds": 0.35, "age": 0.5969752919991151}}
+{"t": 31.993, "kind": "cmd", "data": {"linear": 0.0, "angular": -0.3}}
+{"t": 32.402, "kind": "odom", "data": {"x": 0.7832869741240059, "y": -0.01784443924534743, "speed": 0.0035760754560144885, "angular": -0.30669721408806194}}
+{"t": 32.656, "kind": "detection", "data": {"seq": 71, "stamp": [15, 545000000], "person": false, "confidence": 0.0, "seconds": 0.194, "age": 0.440689040999132}}
+{"t": 32.799, "kind": "state", "data": "PATROL"}
+{"t": 32.994, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 33.335, "kind": "detection", "data": {"seq": 73, "stamp": [15, 946000000], "person": false, "confidence": 0.0, "seconds": 0.176, "age": 0.35207900000023074}}
+{"t": 33.47, "kind": "odom", "data": {"x": 0.7987917012158211, "y": -0.030356746522670373, "speed": 0.08127990182260436, "angular": -0.012113139711245554}}
+{"t": 33.991, "kind": "state", "data": "AVOID"}
+{"t": 33.993, "kind": "detection", "data": {"seq": 75, "stamp": [16, 345000000], "person": false, "confidence": 0.0, "seconds": 0.155, "age": 0.32875575000070967}}
+{"t": 34.092, "kind": "cmd", "data": {"linear": 0.0, "angular": -0.3}}
+{"t": 34.532, "kind": "odom", "data": {"x": 0.8187453428351609, "y": -0.04593413709631967, "speed": -0.0024408164990621737, "angular": -0.26889934797390486}}
+{"t": 34.666, "kind": "detection", "data": {"seq": 77, "stamp": [16, 745000000], "person": false, "confidence": 0.0, "seconds": 0.169, "age": 0.21655816699967545}}
+{"t": 34.992, "kind": "state", "data": "PATROL"}
+{"t": 35.093, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 35.359, "kind": "detection", "data": {"seq": 78, "stamp": [16, 945000000], "person": false, "confidence": 0.0, "seconds": 0.19, "age": 0.4049233749992709}}
+{"t": 35.587, "kind": "odom", "data": {"x": 0.8321639591702675, "y": -0.06064389537366564, "speed": 0.0799906478372509, "angular": 0.014446038973500034}}
+{"t": 36.041, "kind": "detection", "data": {"seq": 80, "stamp": [17, 345000000], "person": false, "confidence": 0.0, "seconds": 0.177, "age": 0.422088374998566}}
+{"t": 36.192, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 36.392, "kind": "state", "data": "AVOID"}
+{"t": 36.594, "kind": "odom", "data": {"x": 0.8563509115512072, "y": -0.08724340273676179, "speed": 0.04836105681730118, "angular": -0.14536327774324007}}
+{"t": 36.745, "kind": "detection", "data": {"seq": 82, "stamp": [17, 746000000], "person": false, "confidence": 0.0, "seconds": 0.198, "age": 0.33229237500017916}}
+{"t": 37.192, "kind": "cmd", "data": {"linear": 0.0, "angular": -0.3}}
+{"t": 37.493, "kind": "state", "data": "PATROL"}
+{"t": 37.503, "kind": "detection", "data": {"seq": 84, "stamp": [18, 146000000], "person": false, "confidence": 0.0, "seconds": 0.254, "age": 0.29573125000024447}}
+{"t": 37.648, "kind": "odom", "data": {"x": 0.858132891303015, "y": -0.08972789798990516, "speed": 0.03345698749818351, "angular": -0.23641773278904837}}
+{"t": 38.177, "kind": "detection", "data": {"seq": 86, "stamp": [18, 545000000], "person": true, "confidence": 0.8793, "seconds": 0.171, "age": 0.19974983300016902}}
+{"t": 38.194, "kind": "cmd", "data": {"linear": 0.08, "angular": 0.0}}
+{"t": 38.658, "kind": "odom", "data": {"x": 0.8789356488029344, "y": -0.12271452368326234, "speed": 0.08248839969372943, "angular": -0.0017497085570286131}}
+{"t": 38.855, "kind": "detection", "data": {"seq": 87, "stamp": [18, 746000000], "person": true, "confidence": 0.8837, "seconds": 0.171, "age": 0.5002022919998126}}
+{"t": 38.892, "kind": "state", "data": "PERSON STOP (latched)"}
+{"t": 39.291, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 39.564, "kind": "detection", "data": {"seq": 89, "stamp": [19, 145000000], "person": true, "confidence": 0.8829, "seconds": 0.205, "age": 0.41850658399926033}}
+{"t": 39.703, "kind": "odom", "data": {"x": 0.8857855614064398, "y": -0.13358926189036918, "speed": 0.0023910749952456884, "angular": -0.0012116797800968196}}
+{"t": 40.514, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 40.719, "kind": "detection", "data": {"seq": 91, "stamp": [19, 545000000], "person": true, "confidence": 0.8588, "seconds": 0.649, "age": 0.7078713760001847}}
+{"t": 40.744, "kind": "odom", "data": {"x": 0.8857916363366313, "y": -0.13359536145190806, "speed": 0.0018074861945630875, "angular": -0.0016296670136577503}}
+{"t": 41.555, "kind": "detection", "data": {"seq": 93, "stamp": [19, 945000000], "person": true, "confidence": 0.8886, "seconds": 0.33, "age": 0.5080724170002213}}
+{"t": 41.592, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 41.799, "kind": "odom", "data": {"x": 0.8857951138453882, "y": -0.13359998288915215, "speed": 0.001400705880748764, "angular": -0.0012232479654175157}}
+{"t": 42.256, "kind": "detection", "data": {"seq": 95, "stamp": [20, 346000000], "person": true, "confidence": 0.8151, "seconds": 0.191, "age": 0.5462557080008992}}
+{"t": 42.592, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 42.844, "kind": "odom", "data": {"x": 0.8857942909404201, "y": -0.13360113376787333, "speed": 0.0007397376617274313, "angular": -0.0012451433047628415}}
+{"t": 42.987, "kind": "detection", "data": {"seq": 97, "stamp": [20, 745000000], "person": true, "confidence": 0.8443, "seconds": 0.224, "age": 0.41667724999933853}}
+{"t": 43.592, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 43.721, "kind": "detection", "data": {"seq": 99, "stamp": [21, 145000000], "person": true, "confidence": 0.8115, "seconds": 0.231, "age": 0.4646378759989602}}
+{"t": 43.895, "kind": "odom", "data": {"x": 0.885794627632373, "y": -0.13360243650610026, "speed": 0.0006882075013003706, "angular": -0.0012744674774555732}}
+{"t": 44.433, "kind": "detection", "data": {"seq": 101, "stamp": [21, 546000000], "person": true, "confidence": 0.9296, "seconds": 0.207, "age": 0.409599167000124}}
+{"t": 44.692, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 44.954, "kind": "odom", "data": {"x": 0.8857968894281752, "y": -0.13360411573310396, "speed": 0.0012040158791895566, "angular": -0.0012119922919273437}}
+{"t": 45.157, "kind": "detection", "data": {"seq": 103, "stamp": [21, 945000000], "person": true, "confidence": 0.9362, "seconds": 0.22, "age": 0.35073504200045136}}
+{"t": 45.692, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 45.823, "kind": "detection", "data": {"seq": 105, "stamp": [22, 345000000], "person": true, "confidence": 0.927, "seconds": 0.158, "age": 0.22815770800116297}}
+{"t": 46.012, "kind": "odom", "data": {"x": 0.885800361626671, "y": -0.1336069984230344, "speed": 0.0018224848829651297, "angular": -0.0010939273423493695}}
+{"t": 46.499, "kind": "detection", "data": {"seq": 106, "stamp": [22, 545000000], "person": true, "confidence": 0.9191, "seconds": 0.174, "age": 0.429445959000077}}
+{"t": 46.692, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 47.016, "kind": "odom", "data": {"x": 0.8858022630878909, "y": -0.13361010843770943, "speed": 0.00178921485002735, "angular": -0.0011186219908635173}}
+{"t": 47.284, "kind": "detection", "data": {"seq": 108, "stamp": [22, 945000000], "person": true, "confidence": 0.9232, "seconds": 0.282, "age": 0.4227740830010589}}
+{"t": 47.743, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 48.075, "kind": "odom", "data": {"x": 0.8858037585067069, "y": -0.13361250649685202, "speed": 0.0017094427427128405, "angular": -0.0010937271038369148}}
+{"t": 48.374, "kind": "detection", "data": {"seq": 109, "stamp": [23, 145000000], "person": true, "confidence": 0.9272, "seconds": 0.579, "age": 1.095100000000457}}
+{"t": 48.793, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 49.049, "kind": "detection", "data": {"seq": 113, "stamp": [23, 945000000], "person": true, "confidence": 0.8394, "seconds": 0.165, "age": 0.18899520900049538}}
+{"t": 49.077, "kind": "odom", "data": {"x": 0.8858056579390613, "y": -0.13361567953525139, "speed": 0.0016032258157707673, "angular": -0.001128897381066309}}
+{"t": 49.746, "kind": "detection", "data": {"seq": 114, "stamp": [24, 145000000], "person": true, "confidence": 0.8367, "seconds": 0.193, "age": 0.4972872090002056}}
+{"t": 49.793, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 50.099, "kind": "odom", "data": {"x": 0.8858073859058007, "y": -0.1336184330025154, "speed": 0.0015058190410071786, "angular": -0.0011170445953487562}}
+{"t": 50.613, "kind": "detection", "data": {"seq": 116, "stamp": [24, 545000000], "person": true, "confidence": 0.8706, "seconds": 0.364, "age": 0.5658419169994886}}
+{"t": 50.794, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 51.143, "kind": "odom", "data": {"x": 0.8858091901262388, "y": -0.13362145528162125, "speed": 0.0015193660290817323, "angular": -0.0009946137568897964}}
+{"t": 51.728, "kind": "detection", "data": {"seq": 118, "stamp": [24, 945000000], "person": true, "confidence": 0.895, "seconds": 0.608, "age": 0.7986406260006333}}
+{"t": 51.918, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 52.308, "kind": "odom", "data": {"x": 0.8858103137106987, "y": -0.13362353961654358, "speed": 0.0015395594711834412, "angular": -0.0009270392654131328}}
+{"t": 52.835, "kind": "detection", "data": {"seq": 120, "stamp": [25, 345000000], "person": true, "confidence": 0.8101, "seconds": 0.596, "age": 1.1889037500004633}}
+{"t": 52.993, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 53.328, "kind": "odom", "data": {"x": 0.8858121473034218, "y": -0.13362673928775648, "speed": 0.0014948356246843274, "angular": -0.0009687382309141552}}
+{"t": 53.837, "kind": "detection", "data": {"seq": 123, "stamp": [25, 946000000], "person": true, "confidence": 0.857, "seconds": 0.496, "age": 0.660519540999303}}
+{"t": 54.092, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 54.376, "kind": "odom", "data": {"x": 0.885813710488975, "y": -0.13362945454979716, "speed": 0.00138922240482642, "angular": -0.0009823950487710788}}
+{"t": 54.764, "kind": "detection", "data": {"seq": 126, "stamp": [26, 545000000], "person": true, "confidence": 0.833, "seconds": 0.408, "age": 0.7111642920008308}}
+{"t": 55.094, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 55.418, "kind": "odom", "data": {"x": 0.8858152767868308, "y": -0.13363212474506764, "speed": 0.001358808124273593, "angular": -0.0009117941075969248}}
+{"t": 55.539, "kind": "detection", "data": {"seq": 129, "stamp": [27, 146000000], "person": true, "confidence": 0.9191, "seconds": 0.269, "age": 0.3916684579999128}}
+{"t": 56.094, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 56.333, "kind": "detection", "data": {"seq": 131, "stamp": [27, 545000000], "person": true, "confidence": 0.9385, "seconds": 0.29, "age": 0.29551845800051524}}
+{"t": 56.477, "kind": "odom", "data": {"x": 0.885816619609258, "y": -0.13363431492330455, "speed": 0.0011828188475778625, "angular": -0.0009498921172160871}}
+{"t": 56.986, "kind": "detection", "data": {"seq": 133, "stamp": [27, 945000000], "person": true, "confidence": 0.9303, "seconds": 0.15, "age": 0.2936143749993789}}
+{"t": 57.192, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 57.535, "kind": "odom", "data": {"x": 0.8858180151058177, "y": -0.13363663243055346, "speed": 0.0011719212592079529, "angular": -0.0008564477826061806}}
+{"t": 57.646, "kind": "detection", "data": {"seq": 134, "stamp": [28, 146000000], "person": true, "confidence": 0.9244, "seconds": 0.156, "age": 0.4651900000008027}}
+{"t": 58.195, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 58.365, "kind": "detection", "data": {"seq": 136, "stamp": [28, 545000000], "person": true, "confidence": 0.9149, "seconds": 0.216, "age": 0.30614391599920054}}
+{"t": 58.588, "kind": "odom", "data": {"x": 0.8858192587704612, "y": -0.13363891130545957, "speed": 0.0011882908033242316, "angular": -0.0007467117226164911}}
+{"t": 59.294, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 59.631, "kind": "odom", "data": {"x": 0.8858201820801008, "y": -0.133640619265953, "speed": 0.0011171025975982365, "angular": -0.0007496426814656574}}
+{"t": 59.697, "kind": "detection", "data": {"seq": 137, "stamp": [28, 745000000], "person": true, "confidence": 0.928, "seconds": 0.774, "age": 1.4444910419988446}}
+{"t": 60.392, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 60.47, "kind": "detection", "data": {"seq": 141, "stamp": [29, 545000000], "person": true, "confidence": 0.8789, "seconds": 0.239, "age": 0.43711125000118045}}
+{"t": 60.67, "kind": "odom", "data": {"x": 0.8858213297363882, "y": -0.13364270128790956, "speed": 0.0011286065864939744, "angular": -0.0007728164421537896}}
+{"t": 61.152, "kind": "detection", "data": {"seq": 143, "stamp": [29, 945000000], "person": true, "confidence": 0.8491, "seconds": 0.176, "age": 0.4782342920007068}}
+{"t": 61.413, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 61.671, "kind": "odom", "data": {"x": 0.8858222397796366, "y": -0.13364430317591097, "speed": 0.0009678067759944543, "angular": -0.0007980590339591869}}
+{"t": 61.815, "kind": "detection", "data": {"seq": 145, "stamp": [30, 346000000], "person": true, "confidence": 0.8848, "seconds": 0.16, "age": 0.2409321249997447}}
+{"t": 62.478, "kind": "detection", "data": {"seq": 147, "stamp": [30, 745000000], "person": true, "confidence": 0.901, "seconds": 0.159, "age": 0.23424058300042816}}
+{"t": 62.491, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 62.678, "kind": "odom", "data": {"x": 0.8858231753429163, "y": -0.13364593745503706, "speed": 0.0009124649132021177, "angular": -0.0007896000933700761}}
+{"t": 63.164, "kind": "detection", "data": {"seq": 148, "stamp": [30, 945000000], "person": true, "confidence": 0.8802, "seconds": 0.18, "age": 0.5229842090011516}}
+{"t": 63.491, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 63.68, "kind": "odom", "data": {"x": 0.8858241163338223, "y": -0.13364748143311558, "speed": 0.0008589665913307874, "angular": -0.0007366063028834257}}
+{"t": 63.846, "kind": "detection", "data": {"seq": 150, "stamp": [31, 345000000], "person": true, "confidence": 0.8664, "seconds": 0.179, "age": 0.3171099999999569}}
+{"t": 64.492, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 64.506, "kind": "detection", "data": {"seq": 152, "stamp": [31, 745000000], "person": true, "confidence": 0.8106, "seconds": 0.156, "age": 0.1987804580003285}}
+{"t": 64.741, "kind": "odom", "data": {"x": 0.8858250260485485, "y": -0.1336491561381737, "speed": 0.0008737617300528947, "angular": -0.0006134228009386077}}
+{"t": 65.184, "kind": "detection", "data": {"seq": 154, "stamp": [32, 145000000], "person": true, "confidence": 0.7738, "seconds": 0.175, "age": 0.19120883399955346}}
+{"t": 65.6, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 65.802, "kind": "odom", "data": {"x": 0.8858258001147812, "y": -0.13365060254803415, "speed": 0.0008181353180038401, "angular": -0.0005994232458479973}}
+{"t": 65.864, "kind": "detection", "data": {"seq": 155, "stamp": [32, 345000000], "person": true, "confidence": 0.6963, "seconds": 0.175, "age": 0.4769186670000636}}
+{"t": 66.693, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 66.707, "kind": "detection", "data": {"seq": 157, "stamp": [32, 745000000], "person": true, "confidence": 0.8121, "seconds": 0.333, "age": 0.5441382500011969}}
+{"t": 66.822, "kind": "odom", "data": {"x": 0.8858265303491485, "y": -0.1336520152523581, "speed": 0.0007909345783700152, "angular": -0.0005585773798859935}}
+{"t": 67.538, "kind": "detection", "data": {"seq": 159, "stamp": [33, 146000000], "person": true, "confidence": 0.9338, "seconds": 0.329, "age": 0.6265468340006919}}
+{"t": 67.792, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 67.878, "kind": "odom", "data": {"x": 0.8858270928617016, "y": -0.133653307179308, "speed": 0.0007517602357474927, "angular": -0.0005874805348390977}}
+{"t": 68.223, "kind": "detection", "data": {"seq": 161, "stamp": [33, 546000000], "person": true, "confidence": 0.9363, "seconds": 0.181, "age": 0.4326303329999064}}
+{"t": 68.792, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 68.914, "kind": "odom", "data": {"x": 0.885827627538812, "y": -0.13365435425255034, "speed": 0.0007082239383043313, "angular": -0.0005608655221298457}}
+{"t": 69.047, "kind": "detection", "data": {"seq": 163, "stamp": [33, 946000000], "person": true, "confidence": 0.9207, "seconds": 0.318, "age": 0.6059997080010362}}
+{"t": 69.807, "kind": "detection", "data": {"seq": 165, "stamp": [34, 346000000], "person": true, "confidence": 0.9205, "seconds": 0.258, "age": 0.5980362499994953}}
+{"t": 69.892, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 69.97, "kind": "odom", "data": {"x": 0.8858281475356755, "y": -0.1336552798923648, "speed": 0.0005282338179262766, "angular": -0.0005971178532144423}}
+{"t": 70.534, "kind": "detection", "data": {"seq": 167, "stamp": [34, 745000000], "person": true, "confidence": 0.9318, "seconds": 0.224, "age": 0.550233208001373}}
+{"t": 70.892, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 71.027, "kind": "odom", "data": {"x": 0.8858286505022717, "y": -0.1336562348740315, "speed": 0.0004837675470396597, "angular": -0.0005439282683376496}}
+{"t": 71.272, "kind": "detection", "data": {"seq": 169, "stamp": [35, 145000000], "person": true, "confidence": 0.8959, "seconds": 0.231, "age": 0.41840487499939627}}
+{"t": 71.893, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 72.0, "kind": "detection", "data": {"seq": 171, "stamp": [35, 545000000], "person": true, "confidence": 0.8675, "seconds": 0.223, "age": 0.313553709000189}}
+{"t": 72.069, "kind": "odom", "data": {"x": 0.8858290544308803, "y": -0.13365701936365823, "speed": 0.00047641282616510004, "angular": -0.0004762866818289023}}
+{"t": 72.675, "kind": "detection", "data": {"seq": 173, "stamp": [35, 945000000], "person": true, "confidence": 0.867, "seconds": 0.17, "age": 0.20335991700085287}}
+{"t": 72.992, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 73.128, "kind": "odom", "data": {"x": 0.8858293785583912, "y": -0.13365777441945279, "speed": 0.0004373043017640584, "angular": -0.00042675747859088024}}
+{"t": 73.365, "kind": "detection", "data": {"seq": 175, "stamp": [36, 345000000], "person": true, "confidence": 0.8954, "seconds": 0.184, "age": 0.21383408299880102}}
+{"t": 73.992, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 74.04, "kind": "detection", "data": {"seq": 176, "stamp": [36, 545000000], "person": true, "confidence": 0.904, "seconds": 0.173, "age": 0.5136572920000617}}
+{"t": 74.19, "kind": "odom", "data": {"x": 0.8858295938669963, "y": -0.13365848380807793, "speed": 0.00041625299701322316, "angular": -0.00037430311347886583}}
+{"t": 74.863, "kind": "detection", "data": {"seq": 178, "stamp": [36, 945000000], "person": true, "confidence": 0.8605, "seconds": 0.318, "age": 0.4350469169985445}}
+{"t": 75.092, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 75.238, "kind": "odom", "data": {"x": 0.8858297376775712, "y": -0.13365881766630677, "speed": 0.000275210021456761, "angular": -0.0004593391230599341}}
+{"t": 75.6, "kind": "detection", "data": {"seq": 180, "stamp": [37, 346000000], "person": true, "confidence": 0.8409, "seconds": 0.231, "age": 0.5113945839984808}}
+{"t": 76.092, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 76.287, "kind": "detection", "data": {"seq": 182, "stamp": [37, 745000000], "person": true, "confidence": 0.7717, "seconds": 0.184, "age": 0.41285645900097734}}
+{"t": 76.291, "kind": "odom", "data": {"x": 0.8858298918200066, "y": -0.13365929670475307, "speed": 0.00028013228992129503, "angular": -0.00037046233617681583}}
+{"t": 76.946, "kind": "detection", "data": {"seq": 184, "stamp": [38, 145000000], "person": true, "confidence": 0.689, "seconds": 0.156, "age": 0.30881241700080864}}
+{"t": 77.092, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 77.356, "kind": "odom", "data": {"x": 0.8858299288259948, "y": -0.1336596025065466, "speed": 0.0002300403426232066, "angular": -0.00031177707177524206}}
+{"t": 77.607, "kind": "detection", "data": {"seq": 185, "stamp": [38, 345000000], "person": true, "confidence": 0.7817, "seconds": 0.157, "age": 0.5794439169985708}}
+{"t": 78.095, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 78.288, "kind": "detection", "data": {"seq": 187, "stamp": [38, 746000000], "person": true, "confidence": 0.9198, "seconds": 0.177, "age": 0.47648758300056215}}
+{"t": 78.379, "kind": "odom", "data": {"x": 0.8858298416566731, "y": -0.1336598674126716, "speed": 0.0002065158365807193, "angular": -0.0002965663182794997}}
+{"t": 78.951, "kind": "detection", "data": {"seq": 189, "stamp": [39, 145000000], "person": true, "confidence": 0.9381, "seconds": 0.16, "age": 0.3912533329985308}}
+{"t": 79.192, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 79.396, "kind": "odom", "data": {"x": 0.8858297282069922, "y": -0.13365992371131924, "speed": 0.00018572924089544108, "angular": -0.00030075123285267885}}
+{"t": 79.621, "kind": "detection", "data": {"seq": 191, "stamp": [39, 545000000], "person": true, "confidence": 0.9276, "seconds": 0.164, "age": 0.26608229099838354}}
+{"t": 80.194, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 80.337, "kind": "detection", "data": {"seq": 192, "stamp": [39, 745000000], "person": true, "confidence": 0.9214, "seconds": 0.214, "age": 0.4904517080012738}}
+{"t": 80.449, "kind": "odom", "data": {"x": 0.8858294890668084, "y": -0.13365978471409762, "speed": 3.72947912146779e-05, "angular": -0.00033512151367238655}}
+{"t": 81.009, "kind": "detection", "data": {"seq": 194, "stamp": [40, 145000000], "person": true, "confidence": 0.9169, "seconds": 0.167, "age": 0.3860281249999389}}
+{"t": 81.292, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 81.513, "kind": "odom", "data": {"x": 0.885829287576558, "y": -0.1336595379025722, "speed": -6.879236529915303e-05, "angular": -0.00032180117618799153}}
+{"t": 81.688, "kind": "detection", "data": {"seq": 196, "stamp": [40, 545000000], "person": true, "confidence": 0.9323, "seconds": 0.175, "age": 0.28907054100091045}}
+{"t": 82.292, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 82.352, "kind": "detection", "data": {"seq": 198, "stamp": [40, 945000000], "person": true, "confidence": 0.8895, "seconds": 0.161, "age": 0.16239895799844817}}
+{"t": 82.568, "kind": "odom", "data": {"x": 0.8858289208682627, "y": -0.13365921116608323, "speed": -0.00013541827923110818, "angular": -0.00029747908265843914}}
+{"t": 83.059, "kind": "detection", "data": {"seq": 199, "stamp": [41, 145000000], "person": true, "confidence": 0.8646, "seconds": 0.205, "age": 0.49188604099981603}}
+{"t": 83.294, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 83.579, "kind": "odom", "data": {"x": 0.8858287301555667, "y": -0.13365893228525888, "speed": -0.00014363551242141333, "angular": -0.00028738891620032515}}
+{"t": 83.762, "kind": "detection", "data": {"seq": 201, "stamp": [41, 545000000], "person": true, "confidence": 0.8567, "seconds": 0.197, "age": 0.5118078329996933}}
+{"t": 84.392, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 84.42, "kind": "detection", "data": {"seq": 203, "stamp": [41, 946000000], "person": true, "confidence": 0.884, "seconds": 0.151, "age": 0.3594998749995284}}
+{"t": 84.58, "kind": "odom", "data": {"x": 0.8858285056701554, "y": -0.13365856763805428, "speed": -0.0001689715042163101, "angular": -0.0002458990393196072}}
+{"t": 85.104, "kind": "detection", "data": {"seq": 204, "stamp": [42, 145000000], "person": true, "confidence": 0.8891, "seconds": 0.18, "age": 0.6658970009993936}}
+{"t": 85.393, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 85.605, "kind": "odom", "data": {"x": 0.8858283880342618, "y": -0.13365827831540583, "speed": -9.8552246510889e-05, "angular": -0.00014790940985155793}}
+{"t": 85.776, "kind": "detection", "data": {"seq": 206, "stamp": [42, 545000000], "person": true, "confidence": 0.8731, "seconds": 0.169, "age": 0.5403267920009966}}
+{"t": 86.393, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 86.445, "kind": "detection", "data": {"seq": 208, "stamp": [42, 945000000], "person": true, "confidence": 0.8157, "seconds": 0.165, "age": 0.42124883299948124}}
+{"t": 86.673, "kind": "odom", "data": {"x": 0.8858281816757374, "y": -0.13365791763106766, "speed": -9.37096421058555e-05, "angular": -0.0001497346897302767}}
+{"t": 87.107, "kind": "detection", "data": {"seq": 210, "stamp": [43, 345000000], "person": true, "confidence": 0.7985, "seconds": 0.158, "age": 0.2877303750010469}}
+{"t": 87.492, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 87.682, "kind": "odom", "data": {"x": 0.8858280910689471, "y": -0.13365776093125936, "speed": -8.411337302180673e-05, "angular": -0.0001386660025235325}}
+{"t": 87.783, "kind": "detection", "data": {"seq": 211, "stamp": [43, 545000000], "person": true, "confidence": 0.8164, "seconds": 0.174, "age": 0.5638189170003898}}
+{"t": 88.493, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 88.497, "kind": "detection", "data": {"seq": 213, "stamp": [43, 945000000], "person": true, "confidence": 0.7345, "seconds": 0.21, "age": 0.38872437499958323}}
+{"t": 88.741, "kind": "odom", "data": {"x": 0.8858278546372419, "y": -0.13365735772959925, "speed": -9.605547369421607e-05, "angular": -0.00013164788928448365}}
+{"t": 89.159, "kind": "detection", "data": {"seq": 215, "stamp": [44, 345000000], "person": true, "confidence": 0.8312, "seconds": 0.158, "age": 0.3748267090013542}}
+{"t": 89.592, "kind": "cmd", "data": {"linear": 0.0, "angular": 0.0}}
+{"t": 89.761, "kind": "odom", "data": {"x": 0.8858275954396284, "y": -0.13365697314439898, "speed": -7.761517858304059e-05, "angular": -0.00016629315089032617}}
+{"t": 89.824, "kind": "detection", "data": {"seq": 217, "stamp": [44, 745000000], "person": true, "confidence": 0.9346, "seconds": 0.156, "age": 0.19333895800082246}}

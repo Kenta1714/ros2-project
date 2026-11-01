@@ -1,0 +1,10 @@
+{
+  "controller": {
+    "exit_code": 0,
+    "double_sigint": true
+  },
+  "detector": {
+    "exit_code": 0,
+    "double_sigint": true
+  }
+}

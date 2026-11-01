@@ -1,0 +1,51 @@
+{
+  "model": "YOLOv8n COCO pretrained",
+  "weights_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "source": "Gazebo Classic RGB camera; original sensor images, no person compositing",
+  "actor": "Gazebo bundled media/models/walk.dae",
+  "person_present": true,
+  "distance_m": 3.0,
+  "actor_yaw_rad": 3.14159265,
+  "camera_height_m": 0.01,
+  "robot_camera": true,
+  "robot_model": "assets/turtlebot3_happy_mini/model.sdf",
+  "camera_resolution": [
+    640,
+    480
+  ],
+  "horizontal_fov_rad": 1.085595,
+  "imgsz": 640,
+  "person_confidence_threshold": 0.5,
+  "frames": [
+    {
+      "file": "frame_00.png",
+      "sim_time": 3.84,
+      "encoding": "rgb8",
+      "inference_seconds": 0.1794,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "person",
+          "confidence": 0.5355,
+          "xyxy": [
+            272.7,
+            50.6,
+            371.7,
+            200.7
+          ]
+        }
+      ],
+      "person_detected": true,
+      "annotated_file": "frame_00_detected.jpg",
+      "source_image_sha256": "9650a4e42459b07e37dbdbfe64f201d032707f7677cdd00195d886d3f779ced8"
+    }
+  ],
+  "passed": true,
+  "limits": "Controlled scene only; not robot movement, collision avoidance, or stop behavior validation.",
+  "software": {
+    "ultralytics": "8.3.74",
+    "torch": "2.6.0",
+    "numpy": "1.24.4"
+  },
+  "frames_captured": 1
+}
